@@ -7,7 +7,7 @@ if (!fs.existsSync('public')) {
 }
 
 // Copy directories
-const dirs = ['css', 'js', 'img', 'fonts', 'files'];
+const dirs = ['css', 'js', 'img', 'fonts', 'files', 'data'];
 dirs.forEach(dir => {
     const src = dir;
     const dest = path.join('public', dir);
@@ -19,11 +19,7 @@ dirs.forEach(dir => {
 // Copy files
 const files = [
     'index.html',
-    'education.html',
-    'experience.html',
-    'awards.html',
-    'advising.html',
-    'publications.html',
+    'resume.html',
     '404.html',
     'robots.txt',
     'sitemap.xml',

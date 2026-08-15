@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Droobi - Résumé</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --text-light: #666;
+            --accent: #0ea5e9;
+            --border: #e5e7eb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            background: white;
+        }
+
+        .resume-container {
+            max-width: 8.5in;
+            height: 11in;
+            margin: 20px auto;
+            padding: 40px;
+            background: white;
+            box-shadow: 0 0 0 1px var(--border);
+            color: var(--text);
+        }
+
+        /* Header */
+        .resume-header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 15px;
+        }
+
+        .resume-header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .resume-header p {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            color: var(--text-light);
+        }
+
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Sections */
+        .resume-section {
+            margin-bottom: 12px;
+        }
+
+        .resume-section h2 {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--accent);
+            padding-left: 8px;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 10px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .job-dates {
+            font-size: 10px;
+            color: var(--text-light);
+        }
+
+        .job-company {
+            font-size: 11px;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .job-description {
+            font-size: 10px;
+            margin-top: 5px;
+            line-height: 1.4;
+        }
+
+        .job-description li {
+            margin-left: 15px;
+            margin-bottom: 3px;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 8px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+
+        .school-name {
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .graduation {
+            font-size: 10px;
+            color: var(--text-light);
+        }
+
+        .degree {
+            font-size: 11px;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        /* Skills */
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            font-size: 10px;
+        }
+
+        .skill-category {
+            margin-bottom: 6px;
+        }
+
+        .skill-category strong {
+            color: var(--accent);
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                margin: 0;
+                padding: 0;
+            }
+
+            .resume-container {
+                max-width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0.5in;
+                box-shadow: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: var(--accent);
+            }
+        }
+
+        .print-button {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .print-button button {
+            padding: 10px 20px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .print-button button:hover {
+            background: #0284c7;
+        }
+
+        @media (max-width: 900px) {
+            .resume-container {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="print-button">
+        <button onclick="window.print()">📋 Print / Save as PDF</button>
+    </div>
+
+    <div class="resume-container">
+        <!-- Header -->
+        <div class="resume-header">
+            <h1>Ahmad Droobi</h1>
+            <p><strong>Platform Software Engineer · Robotics Systems · Linux & Docker · Hardware Integration ·
+                    Deployment & Automation</strong></p>
+            <div class="contact-info">
+                📍 Vancouver, BC | Authorized to work in Canada |
+                <a href="mailto:ahmad.droobi1999@gmail.com">ahmad.droobi1999@gmail.com</a> |
+                <a href="tel:+16723770203">(672) 377-0203</a> |
+                <a href="https://linkedin.com/in/droobi" target="_blank">linkedin.com/in/droobi</a> |
+                <a href="https://github.com/ahmaddroobi99" target="_blank">github.com/ahmaddroobi99</a>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="resume-section">
+            <h2>Professional Summary</h2>
+            <p style="font-size: 10px; line-height: 1.5;">I design and build robust platform software that powers
+                reliable, scalable robotic vision systems. With hands-on experience at Lumotive integrating vision
+                hardware (LiDAR/cameras) into production Linux/Docker environments, plus strong C++/Python skills in
+                deployment, automation, and hardware integration, I bridge low-level systems with real-world robotics.
+            </p>
+        </div>
+
+        <!-- Experience -->
+        <div class="resume-section">
+            <h2>Professional Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Applications Software Engineer</div>
+                        <div class="job-company">Lumotive, Vancouver, BC</div>
+                    </div>
+                    <div class="job-dates">Nov 2025 – Present</div>
+                </div>
+                <ul class="job-description">
+                    <li>Designed and implemented ROS2-based real-time perception pipelines and high-performance
+                        C++/Python frameworks for solid-state LiDAR vision systems on robotic platforms</li>
+                    <li>Built scalable end-to-end sensor architectures with hardware integration, fusion, adaptive
+                        calibration, and validation for cameras/LiDAR, reducing integration issues by over 35%</li>
+                    <li>Developed production-grade deployment tools, PyTest suites, and CI/CD pipelines supporting
+                        Dockerized distributed systems on Linux/Ubuntu</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Research Assistant, State Estimation & Autonomous Systems</div>
+                        <div class="job-company">University of Calgary, Calgary, AB</div>
+                    </div>
+                    <div class="job-dates">Sep 2023 – Aug 2025</div>
+                </div>
+                <ul class="job-description">
+                    <li>Developed distributed high-dimensional state estimation frameworks using C++/Python on Linux/HPC
+                        clusters (MPI/Slurm)</li>
+                    <li>Architected automated pipelines for large-scale experiments, performance profiling, and
+                        reliability testing</li>
+                    <li>Designed and maintained Linux-based development and testing environments with automation tools
+                    </li>
+                    <li>Mentored graduate students in robotics and numerical methods, emphasizing systems integration
+                        and production-ready software practices</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Machine Learning Engineer Intern</div>
+                        <div class="job-company">Harri, Ramallah, Palestine</div>
+                    </div>
+                    <div class="job-dates">Jan 2022 – Jan 2023</div>
+                </div>
+                <ul class="job-description">
+                    <li>Built real-time computer vision systems (Python/OpenCV) with full ML pipelines including
+                        deployment on Linux environments</li>
+                    <li>Architected automated data-to-deployment workflows that accelerated iteration speed by 70%</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="education-header">
+                    <div>
+                        <div class="school-name">University of Calgary</div>
+                        <div class="degree">MSc Computer Engineering (GPA 3.8/4.0)</div>
+                    </div>
+                    <div class="graduation">Sep 2023 – Nov 2025</div>
+                </div>
+                <div style="font-size: 10px; color: var(--text-light);">Focus: Distributed Systems & Autonomous Robotics
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="resume-section">
+            <h2>Core Competencies</h2>
+            <div class="skills-list">
+                <div class="skill-category">
+                    <strong>Platform & Systems</strong>
+                    Linux • Docker • CI/CD • Deployment • Automation
+                </div>
+                <div class="skill-category">
+                    <strong>Hardware Integration</strong>
+                    Vision Cameras • LiDAR • GPU • Sensor Fusion
+                </div>
+                <div class="skill-category">
+                    <strong>Programming</strong>
+                    Python • C++ • Bash • ROS2
+                </div>
+                <div class="skill-category">
+                    <strong>Domain Expertise</strong>
+                    Robotics • Computer Vision • Distributed Systems
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

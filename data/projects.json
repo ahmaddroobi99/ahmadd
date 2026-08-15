@@ -1,0 +1,50 @@
+{
+    "lastUpdated": "2026-08-15T00:00:00Z",
+    "source": "github:ahmaddroobi99",
+    "count": 2,
+    "projects": [
+        {
+            "id": "robotic-cnc-pick-and-place",
+            "name": "Robotic CNC Pick-and-Place System",
+            "description": "High-precision vision-guided robotic manipulation platform with closed-loop control, achieving sub-millimeter accuracy and seamless hardware-software integration.",
+            "url": "https://github.com/ahmaddroobi99/robotic-cnc-project",
+            "homepage": null,
+            "language": "Python",
+            "stars": 5,
+            "forks": 0,
+            "topics": [
+                "robotics",
+                "opencv",
+                "control",
+                "computer-vision"
+            ],
+            "updatedAt": "2023-08-15",
+            "createdAt": "2022-01-01",
+            "isFork": false,
+            "featured": true,
+            "category": "research"
+        },
+        {
+            "id": "distributed-robotics-simulation",
+            "name": "Distributed Robotics Simulation & Deployment Framework",
+            "description": "Scalable simulation and deployment tools for multi-node robotic systems with hardware-in-the-loop testing and performance profiling.",
+            "url": "https://github.com/ahmaddroobi99/distributed-robotics",
+            "homepage": null,
+            "language": "C++",
+            "stars": 8,
+            "forks": 1,
+            "topics": [
+                "robotics",
+                "ros2",
+                "docker",
+                "distributed-systems",
+                "deployment"
+            ],
+            "updatedAt": "2024-08-15",
+            "createdAt": "2023-01-01",
+            "isFork": false,
+            "featured": true,
+            "category": "research"
+        }
+    ]
+}
