@@ -71,3 +71,4 @@ Upload `public/` folder directly to Cloudflare Pages.
 
 ---
 **© 2026 Ahmad Droobi** | Deployed on Cloudflare Pages
+# ahmadd
