@@ -1,0 +1,17 @@
+{
+    "name": "profilio-portfolio",
+    "version": "2.0.0",
+    "description": "Ahmad Droobi - Professional Portfolio",
+    "author": "Ahmad Droobi",
+    "license": "MIT",
+    "scripts": {
+        "build": "sass sass:css --no-source-map --style=compressed && npm run copy",
+        "copy": "node build.js",
+        "deploy": "npm run build && wrangler pages deploy public",
+        "dev": "sass --watch sass:css"
+    },
+    "devDependencies": {
+        "sass": "^1.69.5",
+        "wrangler": "^3.28.0"
+    }
+}

@@ -1,0 +1,21 @@
+# Deployment Quick Reference
+
+## Setup
+```bash
+npm install
+npm run build
+npm run deploy
+```
+
+## GitHub + Cloudflare (Recommended)
+1. Push to GitHub
+2. Connect repo to Cloudflare Pages dashboard
+3. Build command: `npm run build`
+4. Output dir: `public`
+
+## Deploy via CLI
+```bash
+npm run deploy
+```
+
+See README.md for full details.

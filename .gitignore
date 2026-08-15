@@ -1,0 +1,28 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Temporary files from local previews or tooling
+_probe.html
+_diag.html
+_functest.html
+_light-*.html
+_lighttest-*.html
+
+# Build and deployment
+node_modules/
+public/
+dist/
+build/
+*.log
+npm-debug.log*
+.env
+.env.local
+.env.*.local
+.wrangler/
+.parcel-cache/
+.sass-cache/
