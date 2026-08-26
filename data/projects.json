@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-25T06:34:55.619Z",
+  "lastUpdated": "2026-08-26T06:36:37.522Z",
   "source": "github:ahmaddroobi99",
-  "count": 92,
+  "count": 93,
   "projects": [
     {
       "id": "Interview-School-By-Ahmad-_Resources-I-used",
@@ -612,6 +612,22 @@
       "category": "project"
     },
     {
+      "id": "resource-graph-crawler",
+      "name": "Resource Graph Crawler",
+      "description": "A project by Ahmad Droobi",
+      "url": "https://github.com/ahmaddroobi99/resource-graph-crawler",
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-25",
+      "createdAt": "2026-08-23",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
       "id": "ahmadd",
       "name": "Ahmadd",
       "description": "A project by Ahmad Droobi",
@@ -621,7 +637,7 @@
       "stars": 0,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-08-24",
+      "updatedAt": "2026-08-25",
       "createdAt": "2026-08-15",
       "isFork": false,
       "featured": false,
