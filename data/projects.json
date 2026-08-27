@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-26T06:36:37.522Z",
+  "lastUpdated": "2026-08-27T17:12:09.842Z",
   "source": "github:ahmaddroobi99",
-  "count": 93,
+  "count": 94,
   "projects": [
     {
       "id": "Interview-School-By-Ahmad-_Resources-I-used",
@@ -612,17 +612,17 @@
       "category": "project"
     },
     {
-      "id": "resource-graph-crawler",
-      "name": "Resource Graph Crawler",
-      "description": "A project by Ahmad Droobi",
-      "url": "https://github.com/ahmaddroobi99/resource-graph-crawler",
+      "id": "200-dataset-websites",
+      "name": "200 Dataset Websites",
+      "description": "200 dataset-source websites organized into 25 categories — AI/AGI, science, government, health, geo, finance, and more.",
+      "url": "https://github.com/ahmaddroobi99/200-dataset-websites",
       "homepage": null,
-      "language": "Python",
+      "language": null,
       "stars": 0,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-08-25",
-      "createdAt": "2026-08-23",
+      "updatedAt": "2026-08-27",
+      "createdAt": "2026-08-27",
       "isFork": false,
       "featured": false,
       "category": "project"
@@ -637,8 +637,24 @@
       "stars": 0,
       "forks": 0,
       "topics": [],
-      "updatedAt": "2026-08-25",
+      "updatedAt": "2026-08-26",
       "createdAt": "2026-08-15",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
+      "id": "resource-graph-crawler",
+      "name": "Resource Graph Crawler",
+      "description": "A project by Ahmad Droobi",
+      "url": "https://github.com/ahmaddroobi99/resource-graph-crawler",
+      "homepage": null,
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-25",
+      "createdAt": "2026-08-23",
       "isFork": false,
       "featured": false,
       "category": "project"
