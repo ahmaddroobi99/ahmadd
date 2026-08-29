@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-28T09:07:17.857Z",
+  "lastUpdated": "2026-08-29T06:10:18.733Z",
   "source": "github:ahmaddroobi99",
-  "count": 99,
+  "count": 100,
   "projects": [
     {
       "id": "Interview-School-By-Ahmad-_Resources-I-used",
@@ -612,6 +612,38 @@
       "category": "project"
     },
     {
+      "id": "aetherforge",
+      "name": "Aetherforge",
+      "description": "Enterprise AI control plane: 12 production AI-engineering products in one coherent platform (regression, cost autopilot, forensics, RAG, gateway, flags, and more).",
+      "url": "https://github.com/ahmaddroobi99/aetherforge",
+      "homepage": null,
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-28",
+      "createdAt": "2026-08-28",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
+      "id": "ahmadd",
+      "name": "Ahmadd",
+      "description": "A project by Ahmad Droobi",
+      "url": "https://github.com/ahmaddroobi99/ahmadd",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-28",
+      "createdAt": "2026-08-15",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
       "id": "mosqguard",
       "name": "Mosqguard",
       "description": "Open hardware mosquito monitoring and fan-trap system from prototype to production architecture",
@@ -703,22 +735,6 @@
       "topics": [],
       "updatedAt": "2026-08-27",
       "createdAt": "2026-08-27",
-      "isFork": false,
-      "featured": false,
-      "category": "project"
-    },
-    {
-      "id": "ahmadd",
-      "name": "Ahmadd",
-      "description": "A project by Ahmad Droobi",
-      "url": "https://github.com/ahmaddroobi99/ahmadd",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-08-27",
-      "createdAt": "2026-08-15",
       "isFork": false,
       "featured": false,
       "category": "project"
