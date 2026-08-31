@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-30T06:10:48.463Z",
+  "lastUpdated": "2026-08-31T06:14:39.747Z",
   "source": "github:ahmaddroobi99",
-  "count": 113,
+  "count": 115,
   "projects": [
     {
       "id": "Interview-School-By-Ahmad-_Resources-I-used",
@@ -612,6 +612,54 @@
       "category": "project"
     },
     {
+      "id": "meridian",
+      "name": "Meridian",
+      "description": "AI research intelligence terminal — ranks papers, lab notes, and open-source artifacts by technical depth",
+      "url": "https://github.com/ahmaddroobi99/meridian",
+      "homepage": null,
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-31",
+      "createdAt": "2026-08-31",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
+      "id": "lattice",
+      "name": "Lattice",
+      "description": "A visual field manual of machine intelligence — from observation and arrays to attention, GPUs, and research papers.",
+      "url": "https://github.com/ahmaddroobi99/lattice",
+      "homepage": "lattice-field-manual.netlify.app",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-31",
+      "createdAt": "2026-08-31",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
+      "id": "ahmadd",
+      "name": "Ahmadd",
+      "description": "A project by Ahmad Droobi",
+      "url": "https://github.com/ahmaddroobi99/ahmadd",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "updatedAt": "2026-08-30",
+      "createdAt": "2026-08-15",
+      "isFork": false,
+      "featured": false,
+      "category": "project"
+    },
+    {
       "id": "ahmaddroobi99",
       "name": "Ahmaddroobi99",
       "description": "Ahmad Profile ",
@@ -850,22 +898,6 @@
       "topics": [],
       "updatedAt": "2026-08-29",
       "createdAt": "2026-08-27",
-      "isFork": false,
-      "featured": false,
-      "category": "project"
-    },
-    {
-      "id": "ahmadd",
-      "name": "Ahmadd",
-      "description": "A project by Ahmad Droobi",
-      "url": "https://github.com/ahmaddroobi99/ahmadd",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "updatedAt": "2026-08-29",
-      "createdAt": "2026-08-15",
       "isFork": false,
       "featured": false,
       "category": "project"
